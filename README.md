@@ -26,11 +26,20 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+ReactJS is a 'react'ive way of building dynamic, interactive web pages. React uses the virtual DOM to update any changes that will be made over time to our applications and this helps us offload the load of state to our DOM. 
+
 - [ ] What does it mean to _think_ in react?
+
+Thinking in react means to break up to design or UI into components, thinking about which components need to pass props to other components. Thinking about which components are components or which should be class constructors, where state or props needs to be passed along to and displayed to the user. 
+
 
 - [ ] Describe state.
 
+State is the data that we have access to which lives on the class component's constructor. We can take state and pass this state or whatever data is found on this state object as props to other components. 
+
 - [ ] Describe props.
+
+Props stands for properties. Props are data that is passed through our components that can be displayed to the user. Props are the vehicles used to pass data from parent component to child component. 
 
 ## Project Set Up
 
