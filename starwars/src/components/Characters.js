@@ -10,8 +10,8 @@ class Characters extends React.Component {
     }
     render(){
         return (
-            <div>
-                <h1>Seek Me You Must? Find Me You Shall:</h1>
+            <div className = "character-card">
+                <h1 className = "card-header">Seek Me You Must? Find Me You Shall:</h1>
                <p>Name: {this.props.charProfile.name}</p>
                <p>Born: {this.props.charProfile.birth_year}</p>
                <p>Eye Color: {this.props.charProfile.eye_color}</p>
