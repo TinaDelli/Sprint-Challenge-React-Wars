@@ -34,7 +34,10 @@
   box-shadow: 8px 17px 10px  #443e3e
 }
 
-.character-card p {
+.character-card ul {
+  list-style-type: none;
+}
+.character-card ul li {
   font-family: 'Source Code Pro', monospace;
   font-weight:bold;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;

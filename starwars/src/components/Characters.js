@@ -12,16 +12,17 @@ class Characters extends React.Component {
         return (
             <div className = "character-card">
                 <h1 className = "card-header">Seek Me You Must? Find Me You Shall:</h1>
-               <p>Name: {this.props.charProfile.name}</p>
-               <p>Born: {this.props.charProfile.birth_year}</p>
-               <p>Eye Color: {this.props.charProfile.eye_color}</p>
-               <p>Hair Color:{this.props.charProfile.hair_color}</p>
-               <p>Height: {this.props.charProfile.height} </p>
-               <p>Home World: {this.props.charProfile.homeworld}</p>
-               <p>Movies: {this.state.films.map(film => (
+                <ul>
+               <li>Name: {this.props.charProfile.name}</li>
+               <li>Born: {this.props.charProfile.birth_year}</li>
+               <li>Eye Color: {this.props.charProfile.eye_color}</li>
+               <li>Hair Color:{this.props.charProfile.hair_color}</li>
+               <li>Height: {this.props.charProfile.height} </li>
+               <li>Home World: {this.props.charProfile.homeworld}</li>
+               <li>Movies: {this.state.films.map(film => (
                     <Films charSet={film} key={film} />
-                ))} </p>
-
+                ))} </li>
+                </ul>
             </div>
         )
     }
