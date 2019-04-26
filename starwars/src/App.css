@@ -22,6 +22,7 @@
   display:flex;
   flex-wrap:wrap;
   justify-content:space-around;
+  background-image: url('./sw-bg.jpg');
   border: 1px solid #e6e6ff;
   border-radius: 15rem;
   box-shadow: 2px 2px 2px 2px #443e3e
